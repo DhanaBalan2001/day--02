@@ -1,0 +1,25 @@
+Difference between Document and Windows Object:
+
+Document:
+
+1.Represents the HTML document: The Document object represents the HTML document loaded in the browser window.
+
+2.Contains DOM elements: It provides access to all elements within the document, such as <div>, <p>, <span>, etc.
+
+3.Methods for DOM manipulation: It offers methods like getElementById(), getElementsByTagName(), and querySelector() to interact with DOM elements.
+
+4.Properties for document metadata: It includes properties like title, URL, and cookies related to the document.
+
+5.Used for content manipulation: Developers use the Document object to create, modify, and delete HTML elements and their attributes.
+
+Windows Object:
+
+1.Handles timing events: It handles timing events using methods like setTimeout() and setInterval() for executing code after a specified delay or at regular intervals.
+
+2.Storage management: It manages client-side storage using localStorage and sessionStorage to store data persistently or temporarily.
+
+3.Handles cross-origin communication: It facilitates communication between windows or frames belonging to different origins using methods like postMessage().
+
+4.Controls browser navigation: It controls browser navigation using methods like history.back(), history.forward(), and location.reload().
+
+5.Global variables and functions: It hosts global variables and functions that are accessible throughout the application, including across multiple documents within the same window.
